@@ -1,0 +1,32 @@
+{
+  "Levels": [
+
+    {
+      "Level": "Main_Menu",
+      "name": "Level0"
+
+    },
+
+    {
+      "Level": "New_Game",
+      "name": "Level1"
+    },
+
+    {
+      "Level": "Test_level1",
+      "name": "Level2"
+    },
+
+    {
+      "Level": "Test_level2",
+      "name": "Level3"
+    },
+
+    {
+      "Level": "Test_level3",
+      "name": "Level6"
+    }
+
+
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "KeyboardInputs": {
+    "MoveForward": 87,
+    "MoveBackward": 83,
+    "MoveLeft": 65,
+    "MoveRight": 68,
+    "RotateUp": 82,
+    "RotateDown": 70,
+    "RotateRight": 69,
+    "RotateLeft": 81,
+    "SetFirstPersonCamera": 67,
+    "SetThirdPersonCamera": 86,
+    "NextLevel": 90,
+    "PreviousLevel": 88,
+    "IncreaseRedColor": 66,
+    "IncreaseBlueColor": 78,
+    "IncreaseGreenColor": 77
+  }
+
+
+
+
+  
+}

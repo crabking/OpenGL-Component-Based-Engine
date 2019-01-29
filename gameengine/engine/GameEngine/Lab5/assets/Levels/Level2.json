@@ -1,0 +1,13 @@
+{
+  "GameObjects": [
+
+    {
+      "name": "sphere",
+      "model": "sphere",
+      "position": [ 0, 0, -5 ],
+      "orientation": [ 1, 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    }
+
+  ]
+}

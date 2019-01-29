@@ -1,0 +1,13 @@
+{
+  "GameObjects": [
+
+    {
+      "name": "moonlevel",
+      "model": "moonlevel",
+      "position": [ 0, -40, -50 ],
+      "orientation": [ 1, 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    }
+
+  ]
+}

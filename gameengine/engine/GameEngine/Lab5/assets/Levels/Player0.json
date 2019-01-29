@@ -1,0 +1,17 @@
+{
+  "GameObjects": [
+
+    {
+      "name": "Penguin",
+      "model": "PenguinBaseMesh",
+      "playerposition": [ 0, 0, 0 ],
+      "firstpersoncamposition": [ 0, 0, 0 ],
+      "thirdpersoncamposition": [ 0, 2, 4 ],
+      "playerorientation": [ 1, 0, 0, 0 ],
+      "camorientation": [ 1, 0, 0, 0 ],
+      "scale": [ 1, 1, 1 ]
+    }
+
+    
+  ]
+}

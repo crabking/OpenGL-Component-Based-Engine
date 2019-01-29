@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{0b372653-bfac-4764-8027-31acdaff5a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineCore">
+      <UniqueIdentifier>{6394f90f-00be-4e59-820e-ef9bed9752ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ModelCalculations">
+      <UniqueIdentifier>{6d46c77e-e0da-4bc7-a7ef-ce6a1f9747b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libraries">
+      <UniqueIdentifier>{b6820ebb-9ff6-4cee-b769-1cb668546124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ConfigFiles">
+      <UniqueIdentifier>{56cce345-792c-4f6c-9628-b44e8c2efc7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\JsonFiles">
+      <UniqueIdentifier>{d3bd3b0a-cddb-4cda-8d37-b4d902d0bfff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EngineCore">
+      <UniqueIdentifier>{f01a7c36-a110-4719-b7c5-654e28495ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModelCalculations">
+      <UniqueIdentifier>{29add391-f311-4022-84f2-a7b2e8a492f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Libraries">
+      <UniqueIdentifier>{d90685ef-fd4f-4ed4-826f-3ac73246483c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColourComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FirstPersonCameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ThirdPersonCameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TransformComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW_EngineCore.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IEngineCore.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh.h">
+      <Filter>Header Files\ModelCalculations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model.h">
+      <Filter>Header Files\ModelCalculations</Filter>
+    </ClInclude>
+    <ClInclude Include="ft2build.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModelManager.h">
+      <Filter>Header Files\ModelCalculations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModelComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DebugLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Factory.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>Source Files\ModelCalculations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>Source Files\ModelCalculations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLAD\glad.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsoncpp.cpp">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image.c">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLFW_EngineCore.cpp">
+      <Filter>Source Files\EngineCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModelManager.cpp">
+      <Filter>Source Files\ModelCalculations</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SceneHandler.h">
+      <Filter>Header Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\Levels\Level0.json">
+      <Filter>Resource Files\JsonFiles</Filter>
+    </None>
+    <None Include="assets\Levels\Level1.json">
+      <Filter>Resource Files\JsonFiles</Filter>
+    </None>
+    <None Include="assets\Levels\Level2.json">
+      <Filter>Resource Files\JsonFiles</Filter>
+    </None>
+    <None Include="assets\Levels\Level3.json">
+      <Filter>Resource Files\JsonFiles</Filter>
+    </None>
+    <None Include="assets\Levels\keys.json">
+      <Filter>Resource Files\JsonFiles</Filter>
+    </None>
+    <None Include="assets\Levels\Player1.json">
+      <Filter>Resource Files\JsonFiles</Filter>
+    </None>
+    <None Include="assets\Levels\Player2.json">
+      <Filter>Resource Files\JsonFiles</Filter>
+    </None>
+    <None Include="assets\Levels\Player0.json">
+      <Filter>Resource Files\JsonFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\Levels\config.txt">
+      <Filter>Resource Files\ConfigFiles</Filter>
+    </Text>
+    <Text Include="assets\Levels\playerconfig.txt">
+      <Filter>Resource Files\ConfigFiles</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
